@@ -3,8 +3,6 @@
 
 local hooks = require "core.hooks"
 
--- NOTE: To use this, make a copy with `cp example_init.lua init.lua`
-
 --------------------------------------------------------------------
 
 -- To modify packaged plugin configs, use the overrides functionality
