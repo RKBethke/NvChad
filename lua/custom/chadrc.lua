@@ -13,6 +13,11 @@ local M = {}
 
 M.options = {
    relativenumber = true,
+   shiftwidth = 4,
+
+   nvChad = {
+    copy_del = false,
+   },
 }
 
 -- M.ui = {
@@ -22,9 +27,15 @@ M.options = {
 -- NvChad included plugin options & overrides
 M.plugins = {
    options = {
-        lspconfig = {
-         setup_lspconf = "custom.plugins.lspconfig",
-        },
+      nvimtree = {
+        enable_git = 1,
+        ui = {
+          hide_root_folder = false,
+        }
+      },
+      lspconfig = {
+        setup_lspconf = "custom.plugins.lspconfig",
+      },
    },
    -- To change the Packer `config` of a plugin that comes with NvChad,
    -- add a table entry below matching the plugin github name
