@@ -17,6 +17,8 @@ M.options = {
 
    nvChad = {
     copy_del = false,
+    update_url = "https://github.com/RKBethke/NvChad",
+    update_branch = "rkbethke",
    },
 }
 

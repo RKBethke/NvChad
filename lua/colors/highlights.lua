@@ -33,7 +33,8 @@ local bg = require("core.utils").bg
 if ui.italic_comments then
    fg("Comment", grey_fg .. " gui=italic")
 else
-   fg("Comment", grey_fg)
+   fg("Comment", "#7ca668")
+   -- fg("Comment", grey_fg)
 end
 
 -- Disable cusror line
