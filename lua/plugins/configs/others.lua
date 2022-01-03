@@ -117,7 +117,7 @@ M.lsp_handlers = function()
    lspSymbol("Warn", "")
 
    vim.diagnostic.config {
-       virtual_text = false,
+      virtual_text = false,
       -- virtual_text = {
       --    prefix = "",
       --    spacing = 0,
